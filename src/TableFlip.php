@@ -1,6 +1,20 @@
 <?php
 
-class （╯°□°）╯︵┻━┻ extends Exception {
+interface ┻━┻ {}
+
+class （╯°□°）╯︵┻━┻ extends Exception implements ┻━┻ {
+  public function __construct($message = __CLASS__, $code = 0, Exception $previous = null) {
+    parent::__construct($message, $code, $previous);
+  }
+}
+
+class （ノ゜Д゜）ノ︵┻━┻ extends Exception implements ┻━┻ {
+  public function __construct($message = __CLASS__, $code = 0, Exception $previous = null) {
+    parent::__construct($message, $code, $previous);
+  }
+}
+
+class （ノಥ益ಥ）ノ︵┻━┻ extends Exception implements ┻━┻ {
   public function __construct($message = __CLASS__, $code = 0, Exception $previous = null) {
     parent::__construct($message, $code, $previous);
   }
