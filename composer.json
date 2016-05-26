@@ -1,0 +1,25 @@
+{
+  "name": "sgolemon/table-flip",
+  "description": "Essential exception class needed by every good project.",
+  "version": "1.0.0",
+  "type": "library",
+  "keywords": [
+    "exception",
+    "table-flip",
+    "rage",
+    "fun"
+  ],
+  "homepage": "https://github.com/sgolemon/table-flip",
+  "license": "Public Domain",
+  "authors": [
+    {
+      "name": "Sara Golemon",
+      "email": "pollita@php.net",
+      "homepage": "https://twitter.com/SaraMG",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [ "src/TableFlip.php" ]
+  }
+}
