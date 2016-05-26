@@ -21,5 +21,11 @@
   ],
   "autoload": {
     "files": [ "src/TableFlip.php" ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests/Flip.php"
   }
 }
