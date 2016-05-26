@@ -17,7 +17,7 @@ try {
     throw new （╯°□°）╯︵┻━┻;
   } elseif ($ret === false) {
     throw new （ノಥ益ಥ）ノ︵┻━┻;
-  } ese if (!is_string($ret)) {
+  } elseif (!is_string($ret)) {
     throw new （ノ゜Д゜）ノ︵┻━┻;
   }
 } catch (┻━┻ $e) {
