@@ -23,3 +23,9 @@ class （ノಥ益ಥ）ノ︵┻━┻ extends Exception implements ┻━┻ {
 function （╯°□°）╯︵┻━┻($message = __FUNCTION__, $code = 0, $previous = null) {
   throw new （╯°□°）╯︵┻━┻($message, $code, $previous);
 }
+
+define('°□°└', '');
+
+function ┻━┻︵└($ignore) {
+  （╯°□°）╯︵┻━┻();
+}
