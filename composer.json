@@ -1,7 +1,7 @@
 {
   "name": "sgolemon/table-flip",
   "description": "Essential exception class needed by every good project.",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "type": "library",
   "keywords": [
     "exception",
