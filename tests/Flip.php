@@ -6,6 +6,7 @@ class TableFlipTest extends PHPUnit_Framework_TestCase {
   const TYPE_NORMAL = 0;
   const TYPE_PUDGY = 1;
   const TYPE_AGRO = 2;
+  const TYPE_SOVIET_RUSSIA = 3;
 
   private static function getClass($type) {
     switch ($type) {
@@ -15,13 +16,15 @@ class TableFlipTest extends PHPUnit_Framework_TestCase {
         return （ノಥ益ಥ）ノ︵┻━┻::class;
       case self::TYPE_NORMAL:
         return （╯°□°）╯︵┻━┻::class;
+      case self::TYPE_SOVIET_RUSSIA:
+        return （ノ┬─┬ノ︵（＼o°o）＼::class;
       default:
         return Exception::class;
     }
   }
 
   public function testThrowAll() {
-    $types = array(self::TYPE_NORMAL, self::TYPE_PUDGY, self::TYPE_AGRO);
+    $types = array(self::TYPE_NORMAL, self::TYPE_PUDGY, self::TYPE_AGRO, self::TYPE_SOVIET_RUSSIA);
     foreach ($types as $type) {
       $class = self::getClass($type);
       $caught = false;
