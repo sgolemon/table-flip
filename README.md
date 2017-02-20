@@ -21,8 +21,7 @@ try {
     throw new （ノ゜Д゜）ノ︵┻━┻;
   }
 } catch (┻━┻ $e) {
-  undoSomething();
-  throw $e;
+  ┬─┬﻿ノ（･_･ノ）;
 }
 ```
 
