@@ -48,4 +48,15 @@ class TableFlipTest extends PHPUnit_Framework_TestCase {
     }
     $this->assertTrue($caught);
   }
+
+  public function testSetTable() {
+    $caught = false;
+    try {
+      throw new （╯°□°）╯︵┻━┻("Nope!");
+    } catch (┻━┻ $e) {
+      ┬─┬﻿ノ（･_･ノ）;
+      $caught = true;
+    }
+    $this->assertTrue($caught);
+  }
 }
