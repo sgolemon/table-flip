@@ -1,5 +1,7 @@
 Inspired by Adam Harvey: https://twitter.com/LGnome/status/735573024825430016
 
+`if ($situation === SHIT::HAPPENED) {（╯°□°）╯︵┻━┻(); }`
+
 Usages:
   * throw new （╯°□°）╯︵┻━┻; // TableFlip
   * throw new （ノ゜Д゜）ノ︵┻━┻; // PudgyTableFlip
