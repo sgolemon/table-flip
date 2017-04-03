@@ -22,7 +22,7 @@
     "files": [ "src/TableFlip.php" ]
   },
   "require-dev": {
-    "phpunit/phpunit": "*"
+    "phpunit/phpunit": "^6.0.8"
   },
   "scripts": {
     "test": "vendor/bin/phpunit tests/Flip.php"

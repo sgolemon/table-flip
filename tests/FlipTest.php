@@ -1,8 +1,8 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
+use PHPUnit\Framework\TestCase;
 
-class TableFlipTest extends PHPUnit_Framework_TestCase {
+class TableFlipTest extends TestCase {
   const TYPE_NORMAL = 0;
   const TYPE_PUDGY = 1;
   const TYPE_AGRO = 2;
