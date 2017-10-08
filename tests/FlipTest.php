@@ -20,7 +20,7 @@ class TableFlipTest extends TestCase {
       case self::TYPE_SOVIET_RUSSIA:
         return （ノ┬─┬ノ︵（＼o°o）＼::class;
       case self::TYPE_FACEBOOK:
-        return （ノ┬─┬ノ︵（＼o°o）＼::class;
+        return （╯°□°）╯︵ʞooqǝɔɐℲ::class;
       default:
         return Exception::class;
     }
