@@ -25,9 +25,9 @@ function （╯°□°）╯︵┻━┻($message = __FUNCTION__, $code = 0, $pr
 }
 
 class （ノ┬─┬ノ︵（＼o°o）＼ extends Exception implements ┻━┻ {
-    public function __construct($message = __CLASS__, $code = 0, Exception $previous = null) {
-        parent::__construct($message, $code, $previous);
-    }
+  public function __construct($message = __CLASS__, $code = 0, Exception $previous = null) {
+    parent::__construct($message, $code, $previous);
+  }
 }
 
 const °□°└ = '';
