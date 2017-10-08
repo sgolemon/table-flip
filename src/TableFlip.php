@@ -30,6 +30,12 @@ class （ノ┬─┬ノ︵（＼o°o）＼ extends Exception implements ┻━�
   }
 }
 
+class （╯°□°）╯︵ʞooqǝɔɐℲ extends Exception implements ┻━┻ {
+    public function __construct($message = __CLASS__, $code = 0, Exception $previous = null) {
+        parent::__construct($message, $code, $previous);
+    }
+}
+
 const °□°└ = '';
 
 function ┻━┻︵└($ignore) {

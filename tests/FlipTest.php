@@ -7,6 +7,7 @@ class TableFlipTest extends TestCase {
   const TYPE_PUDGY = 1;
   const TYPE_AGRO = 2;
   const TYPE_SOVIET_RUSSIA = 3;
+  const TYPE_FACEBOOK = 4;
 
   private static function getClass($type) {
     switch ($type) {
@@ -17,6 +18,8 @@ class TableFlipTest extends TestCase {
       case self::TYPE_NORMAL:
         return （╯°□°）╯︵┻━┻::class;
       case self::TYPE_SOVIET_RUSSIA:
+        return （ノ┬─┬ノ︵（＼o°o）＼::class;
+      case self::TYPE_FACEBOOK:
         return （ノ┬─┬ノ︵（＼o°o）＼::class;
       default:
         return Exception::class;

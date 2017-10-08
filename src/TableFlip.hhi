@@ -20,5 +20,9 @@ class （ノ┬─┬ノ︵（＼o°o）＼ extends Exception implements ┻━�
   public function __construct(string $message = __CLASS__, int $code = 0, ?Exception $previous = null);
 }
 
+class （╯°□°）╯︵ʞooqǝɔɐℲ extends Exception implements ┻━┻ {
+  public function __construct(string $message = __CLASS__, int $code = 0, ?Exception $previous = null);
+}
+
 const string °□°└ = '';
 function ┻━┻︵└(string $ignore);
